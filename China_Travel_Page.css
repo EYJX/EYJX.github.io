@@ -1,0 +1,66 @@
+/*Navigation Bar/
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #001219;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: #AE2012;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #9B2226;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Mood Selecter */
+/* Style the tab buttons */
+.tablink {
+    background-color: black;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tablink:hover {
+    background-color: rgb(30, 30, 30);
+  }
+  
+  /* Set default styles for tab content */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Style each tab content individually */
+  #London {background-color:rgb(149, 33, 33);}
+  #Paris {background-color:rgb(62, 53, 225);}
+  #Tokyo {background-color:rgba(99, 9, 235, 0.693);}
+  #Oslo {background-color:rgb(239, 131, 160);}
+
